@@ -12,6 +12,12 @@ import AppAuth
 
 class AppAuthManager: IAppAuthManager {
     private var currentOAuthSession: OIDExternalUserAgentSession?
+    
+    private var settingDataStore: ISettingDataStore?
+    
+    init() {
+        settingDataStore = SettingDataStore()
+    }
 
     func startLogin() {
         let currentViewController = getHostingViewController()
@@ -47,6 +53,8 @@ class AppAuthManager: IAppAuthManager {
     func tokenResponseCallback(response: OIDTokenResponse?, error: Error?) {
         if let res = response {
             print("\(String(describing: res.accessToken))")
+            settingDataStore?.saveSetting(keyName: SettingKeys.oauthToken.rawValue, keyValue: res.accessToken)
+            settingDataStore?.saveSetting(keyName: SettingKeys.refreshToken.rawValue, keyValue: res.refreshToken)
         }
     }
     

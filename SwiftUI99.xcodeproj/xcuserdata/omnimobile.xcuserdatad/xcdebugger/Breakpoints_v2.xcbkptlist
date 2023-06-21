@@ -265,8 +265,8 @@
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "startLogin()"
             landmarkType = "7">
             <Locations>
@@ -328,8 +328,8 @@
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "startLoginRequest(uiViewController:)"
             landmarkType = "7">
             <Locations>
@@ -391,8 +391,8 @@
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "tokenResponseCallback(response:error:)"
             landmarkType = "7">
             <Locations>

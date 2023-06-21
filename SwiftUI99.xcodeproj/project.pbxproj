@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E810F8BA2A432F2500905513 /* SettingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8B92A432F2500905513 /* SettingKeys.swift */; };
+		E810F8BC2A43305F00905513 /* ISettingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8BB2A43305F00905513 /* ISettingDataStore.swift */; };
+		E810F8C02A43327400905513 /* SettingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8BF2A43327400905513 /* SettingDataStore.swift */; };
+		E810F8C22A4334B000905513 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8C12A4334B000905513 /* MainView.swift */; };
 		E8420A722A3315EA00A02DDC /* SwiftUI99App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A712A3315EA00A02DDC /* SwiftUI99App.swift */; };
 		E8420A762A3315EC00A02DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8420A752A3315EC00A02DDC /* Assets.xcassets */; };
 		E8420A792A3315EC00A02DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8420A782A3315EC00A02DDC /* Preview Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E810F8B92A432F2500905513 /* SettingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingKeys.swift; sourceTree = "<group>"; };
+		E810F8BB2A43305F00905513 /* ISettingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISettingDataStore.swift; sourceTree = "<group>"; };
+		E810F8BF2A43327400905513 /* SettingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDataStore.swift; sourceTree = "<group>"; };
+		E810F8C12A4334B000905513 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E8420A6E2A3315EA00A02DDC /* SwiftUI99.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI99.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8420A712A3315EA00A02DDC /* SwiftUI99App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI99App.swift; sourceTree = "<group>"; };
 		E8420A752A3315EC00A02DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E810F8B82A432F1300905513 /* SettingStore */ = {
+			isa = PBXGroup;
+			children = (
+				E810F8B92A432F2500905513 /* SettingKeys.swift */,
+				E810F8BB2A43305F00905513 /* ISettingDataStore.swift */,
+				E810F8BF2A43327400905513 /* SettingDataStore.swift */,
+			);
+			path = SettingStore;
+			sourceTree = "<group>";
+		};
 		E8420A652A3315EA00A02DDC = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				E8420A9C2A331E0600A02DDC /* LoginView.swift */,
+				E810F8C12A4334B000905513 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +197,7 @@
 		E8D51D322A3769920048A530 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E810F8B82A432F1300905513 /* SettingStore */,
 				E86230DA2A41AECB003AD2D9 /* Authentication */,
 			);
 			path = Model;
@@ -328,13 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E810F8C02A43327400905513 /* SettingDataStore.swift in Sources */,
 				E8420A9D2A331E0600A02DDC /* LoginView.swift in Sources */,
 				E86230D92A41AAA9003AD2D9 /* LoginViewModel.swift in Sources */,
 				E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */,
 				E86230E02A41AFA5003AD2D9 /* OAuthConfig.swift in Sources */,
 				E8D51D362A376CA50048A530 /* AppDelegate.swift in Sources */,
 				E8420A722A3315EA00A02DDC /* SwiftUI99App.swift in Sources */,
+				E810F8C22A4334B000905513 /* MainView.swift in Sources */,
+				E810F8BA2A432F2500905513 /* SettingKeys.swift in Sources */,
 				E86230DE2A41AF04003AD2D9 /* IAppAuthManager.swift in Sources */,
+				E810F8BC2A43305F00905513 /* ISettingDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
