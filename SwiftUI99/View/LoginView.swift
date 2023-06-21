@@ -11,8 +11,8 @@ struct LoginView: View {
     
     @ObservedObject var viewModel: LoginViewModel
     
-    init(viewModel: LoginViewModel) {
-        self.viewModel = viewModel
+    init() {
+        self.viewModel = LoginViewModel()
     }
     
     var body: some View {

@@ -13,6 +13,8 @@ import AppAuth
 class AppAuthManager: IAppAuthManager {
     private var currentOAuthSession: OIDExternalUserAgentSession?
     
+    private var loginContinuation: CheckedContinuation<Bool, Error>?
+    
     private var settingDataStore: ISettingDataStore?
     
     init() {
@@ -31,6 +33,12 @@ class AppAuthManager: IAppAuthManager {
             } catch {
                 
             }
+        }
+    }
+    
+    func onLoginFinished() async throws -> Bool {
+        try await withCheckedThrowingContinuation { continuation in
+            loginContinuation = continuation
         }
     }
     
@@ -55,6 +63,9 @@ class AppAuthManager: IAppAuthManager {
             print("\(String(describing: res.accessToken))")
             settingDataStore?.saveSetting(keyName: SettingKeys.oauthToken.rawValue, keyValue: res.accessToken)
             settingDataStore?.saveSetting(keyName: SettingKeys.refreshToken.rawValue, keyValue: res.refreshToken)
+            loginContinuation?.resume(returning: true)
+        } else {
+            loginContinuation?.resume(throwing: error!)
         }
     }
     

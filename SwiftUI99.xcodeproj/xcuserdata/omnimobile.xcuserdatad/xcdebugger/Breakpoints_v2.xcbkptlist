@@ -259,14 +259,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "startLogin()"
             landmarkType = "7">
             <Locations>
@@ -315,6 +315,21 @@
                   endingLineNumber = "22"
                   offsetFromSymbolStart = "126">
                </Location>
+               <Location
+                  uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F - ad58bda31acbc33d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUI99.AppAuthManager.startLogin() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "126">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -328,8 +343,8 @@
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "startLoginRequest(uiViewController:)"
             landmarkType = "7">
             <Locations>
@@ -385,16 +400,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "tokenResponseCallback(response:error:)"
-            landmarkType = "7">
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "AppAuthManager"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C - fb72834eb4698884"
@@ -425,6 +440,21 @@
                   startingLineNumber = "53"
                   endingLineNumber = "53"
                   offsetFromSymbolStart = "806">
+               </Location>
+               <Location
+                  uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C - fb72834eb469879c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI99.AppAuthManager.tokenResponseCallback(response: Swift.Optional&lt;__C.OIDTokenResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1781">
                </Location>
             </Locations>
          </BreakpointContent>

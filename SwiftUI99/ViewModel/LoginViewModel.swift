@@ -7,13 +7,13 @@
 
 import Foundation
 
-class LoginViewModel: ObservableObject{
+class LoginViewModel: BaseViewModel{
     private var authenticationManager : IAppAuthManager
     
     @Published var userName: String = "userName"
     @Published var password: String = "passWord"
     
-    init() {
+    override init() {
         self.authenticationManager = AppAuthManager()
     }
     
