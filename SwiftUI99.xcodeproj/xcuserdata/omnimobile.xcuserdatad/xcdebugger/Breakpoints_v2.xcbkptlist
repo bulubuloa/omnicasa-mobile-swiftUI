@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F34DC2C2-B4CE-4FAF-B635-3614E29F6792"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "071DC939-3A42-44E9-BF89-170C61C2582D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/AuthenticationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "loginByOAuth()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "071DC939-3A42-44E9-BF89-170C61C2582D - 12cf2aa1d2df09ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDServiceConfiguration&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  uuid = "071DC939-3A42-44E9-BF89-170C61C2582D - 12cf2aa1d2df09ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDServiceConfiguration&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "071DC939-3A42-44E9-BF89-170C61C2582D - 41ffe674a43d24bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34B3D19E-8E0A-40B1-A344-A156FBA950B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/AuthenticationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "loginByOAuth()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34B3D19E-8E0A-40B1-A344-A156FBA950B4 - 41ffe674a43d1e93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "2255">
+               </Location>
+               <Location
+                  uuid = "34B3D19E-8E0A-40B1-A344-A156FBA950B4 - 55f701f7485a4241"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (SwiftUI99.LoginResponseHandler) -&gt; (Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "34B3D19E-8E0A-40B1-A344-A156FBA950B4 - a1f189f1ac1d8ca6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in implicit closure #1 (SwiftUI99.LoginResponseHandler) -&gt; (Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUI99.AuthenticationManager.loginByOAuth() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E4F912-E8A7-4477-B722-75F88483B2E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/AuthenticationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "callback(response:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/AuthenticationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "waitForCallback()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E - f08c6bcd907b68ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SwiftUI99.LoginResponseHandler.waitForCallback() async throws -&gt; __C.OIDAuthorizationResponse"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E - c13780e6a23c389e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SwiftUI99.LoginResponseHandler.waitForCallback() async throws -&gt; __C.OIDAuthorizationResponse"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E - c1e4eb3e7379346f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SwiftUI99.LoginResponseHandler.waitForCallback() async throws -&gt; __C.OIDAuthorizationResponse"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E - 269328f783e6d648"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SwiftUI99.LoginResponseHandler.waitForCallback() async throws -&gt; __C.OIDAuthorizationResponse"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "C4D74047-CE54-402D-BB8E-C0F0E0A8B88E - b22052ba9c4a8ab4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;__C.OIDAuthorizationResponse, Swift.Error&gt;) -&gt; () in SwiftUI99.LoginResponseHandler.waitForCallback() async throws -&gt; __C.OIDAuthorizationResponse"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/AuthenticationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FB06E05-61BB-4E04-BB9B-974D9544DD39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "startLoginByOAuth()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "startLogin()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F - ad58bda31acbc3c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUI99.AppAuthManager.startLogin() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F - ad58bda31acbc3c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUI99.AppAuthManager.startLogin() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "BC9829A8-A66E-4270-B502-57F9B21F923F - ad58bda31acbc3e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUI99.AppAuthManager.startLogin() -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0992C299-55B9-4249-BEC9-FB4B528AB6A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "startLoginRequest(uiViewController:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0992C299-55B9-4249-BEC9-FB4B528AB6A0 - 5e489cc480b96ec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Never&gt;) -&gt; () in SwiftUI99.AppAuthManager.startLoginRequest(uiViewController: __C.UIViewController) async throws -&gt; Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "0992C299-55B9-4249-BEC9-FB4B528AB6A0 - 384d74355f366c32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Never&gt;) -&gt; () in SwiftUI99.AppAuthManager.startLoginRequest(uiViewController: __C.UIViewController) async throws -&gt; Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "0992C299-55B9-4249-BEC9-FB4B528AB6A0 - 384d74355f366c53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.CheckedContinuation&lt;Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;, Swift.Never&gt;) -&gt; () in SwiftUI99.AppAuthManager.startLoginRequest(uiViewController: __C.UIViewController) async throws -&gt; Swift.Optional&lt;__C.OIDAuthorizationResponse&gt;"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI99/Model/Authentication/AppAuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "tokenResponseCallback(response:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C - fb72834eb4698884"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI99.AppAuthManager.tokenResponseCallback(response: Swift.Optional&lt;__C.OIDTokenResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "806">
+               </Location>
+               <Location
+                  uuid = "02C5B667-5811-4AC5-92ED-07FC8F84291C - fb72834eb4698746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI99.AppAuthManager.tokenResponseCallback(response: Swift.Optional&lt;__C.OIDTokenResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "SwiftUI99"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omnimobile/Projects/SwiftUI/SwiftUI99/Model/Authentication/AppAuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "806">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

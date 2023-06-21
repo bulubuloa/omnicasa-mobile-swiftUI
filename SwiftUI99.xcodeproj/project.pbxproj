@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E8420A722A3315EA00A02DDC /* SwiftUI99App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A712A3315EA00A02DDC /* SwiftUI99App.swift */; };
-		E8420A742A3315EA00A02DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A732A3315EA00A02DDC /* ContentView.swift */; };
 		E8420A762A3315EC00A02DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8420A752A3315EC00A02DDC /* Assets.xcassets */; };
 		E8420A792A3315EC00A02DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8420A782A3315EC00A02DDC /* Preview Assets.xcassets */; };
 		E8420A832A3315ED00A02DDC /* SwiftUI99Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A822A3315ED00A02DDC /* SwiftUI99Tests.swift */; };
 		E8420A8D2A3315ED00A02DDC /* SwiftUI99UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A8C2A3315ED00A02DDC /* SwiftUI99UITests.swift */; };
 		E8420A8F2A3315ED00A02DDC /* SwiftUI99UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A8E2A3315ED00A02DDC /* SwiftUI99UITestsLaunchTests.swift */; };
 		E8420A9D2A331E0600A02DDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8420A9C2A331E0600A02DDC /* LoginView.swift */; };
+		E86230CA2A4148E3003AD2D9 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E86230C92A4148E3003AD2D9 /* AppAuth */; };
+		E86230CC2A4148E3003AD2D9 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = E86230CB2A4148E3003AD2D9 /* AppAuthCore */; };
+		E86230CE2A4148E3003AD2D9 /* AppAuthTV in Frameworks */ = {isa = PBXBuildFile; productRef = E86230CD2A4148E3003AD2D9 /* AppAuthTV */; };
+		E86230D92A41AAA9003AD2D9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230D82A41AAA9003AD2D9 /* LoginViewModel.swift */; };
+		E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DB2A41AEE6003AD2D9 /* AppAuthManager.swift */; };
+		E86230DE2A41AF04003AD2D9 /* IAppAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DD2A41AF04003AD2D9 /* IAppAuthManager.swift */; };
+		E86230E02A41AFA5003AD2D9 /* OAuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DF2A41AFA5003AD2D9 /* OAuthConfig.swift */; };
+		E8D51D362A376CA50048A530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D51D352A376CA50048A530 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 /* Begin PBXFileReference section */
 		E8420A6E2A3315EA00A02DDC /* SwiftUI99.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI99.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8420A712A3315EA00A02DDC /* SwiftUI99App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI99App.swift; sourceTree = "<group>"; };
-		E8420A732A3315EA00A02DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8420A752A3315EC00A02DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8420A782A3315EC00A02DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8420A7E2A3315EC00A02DDC /* SwiftUI99Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI99Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +52,12 @@
 		E8420A8C2A3315ED00A02DDC /* SwiftUI99UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI99UITests.swift; sourceTree = "<group>"; };
 		E8420A8E2A3315ED00A02DDC /* SwiftUI99UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI99UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E8420A9C2A331E0600A02DDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E86230D62A4186ED003AD2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E86230D82A41AAA9003AD2D9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E86230DB2A41AEE6003AD2D9 /* AppAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthManager.swift; sourceTree = "<group>"; };
+		E86230DD2A41AF04003AD2D9 /* IAppAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAppAuthManager.swift; sourceTree = "<group>"; };
+		E86230DF2A41AFA5003AD2D9 /* OAuthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthConfig.swift; sourceTree = "<group>"; };
+		E8D51D352A376CA50048A530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86230CE2A4148E3003AD2D9 /* AppAuthTV in Frameworks */,
+				E86230CA2A4148E3003AD2D9 /* AppAuth in Frameworks */,
+				E86230CC2A4148E3003AD2D9 /* AppAuthCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,7 @@
 				E8420A812A3315EC00A02DDC /* SwiftUI99Tests */,
 				E8420A8B2A3315ED00A02DDC /* SwiftUI99UITests */,
 				E8420A6F2A3315EA00A02DDC /* Products */,
+				E8D51D3A2A3776A00048A530 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,11 +112,14 @@
 		E8420A702A3315EA00A02DDC /* SwiftUI99 */ = {
 			isa = PBXGroup;
 			children = (
+				E86230D62A4186ED003AD2D9 /* Info.plist */,
+				E86230D72A41AA58003AD2D9 /* ViewModel */,
+				E8D51D322A3769920048A530 /* Model */,
 				E8420A9B2A331D9500A02DDC /* View */,
 				E8420A712A3315EA00A02DDC /* SwiftUI99App.swift */,
-				E8420A732A3315EA00A02DDC /* ContentView.swift */,
 				E8420A752A3315EC00A02DDC /* Assets.xcassets */,
 				E8420A772A3315EC00A02DDC /* Preview Content */,
+				E8D51D352A376CA50048A530 /* AppDelegate.swift */,
 			);
 			path = SwiftUI99;
 			sourceTree = "<group>";
@@ -138,6 +157,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E86230D72A41AA58003AD2D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E86230D82A41AAA9003AD2D9 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E86230DA2A41AECB003AD2D9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E86230DB2A41AEE6003AD2D9 /* AppAuthManager.swift */,
+				E86230DD2A41AF04003AD2D9 /* IAppAuthManager.swift */,
+				E86230DF2A41AFA5003AD2D9 /* OAuthConfig.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E8D51D322A3769920048A530 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E86230DA2A41AECB003AD2D9 /* Authentication */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8D51D3A2A3776A00048A530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +206,11 @@
 			dependencies = (
 			);
 			name = SwiftUI99;
+			packageProductDependencies = (
+				E86230C92A4148E3003AD2D9 /* AppAuth */,
+				E86230CB2A4148E3003AD2D9 /* AppAuthCore */,
+				E86230CD2A4148E3003AD2D9 /* AppAuthTV */,
+			);
 			productName = SwiftUI99;
 			productReference = E8420A6E2A3315EA00A02DDC /* SwiftUI99.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +283,9 @@
 				Base,
 			);
 			mainGroup = E8420A652A3315EA00A02DDC;
+			packageReferences = (
+				E86230C82A4148E3003AD2D9 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+			);
 			productRefGroup = E8420A6F2A3315EA00A02DDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -269,8 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8420A9D2A331E0600A02DDC /* LoginView.swift in Sources */,
-				E8420A742A3315EA00A02DDC /* ContentView.swift in Sources */,
+				E86230D92A41AAA9003AD2D9 /* LoginViewModel.swift in Sources */,
+				E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */,
+				E86230E02A41AFA5003AD2D9 /* OAuthConfig.swift in Sources */,
+				E8D51D362A376CA50048A530 /* AppDelegate.swift in Sources */,
 				E8420A722A3315EA00A02DDC /* SwiftUI99App.swift in Sources */,
+				E86230DE2A41AF04003AD2D9 /* IAppAuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +496,13 @@
 				DEVELOPMENT_TEAM = EGEKM598TG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUI99/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,11 +527,13 @@
 				DEVELOPMENT_TEAM = EGEKM598TG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUI99/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -595,6 +663,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E86230C82A4148E3003AD2D9 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E86230C92A4148E3003AD2D9 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86230C82A4148E3003AD2D9 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		E86230CB2A4148E3003AD2D9 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86230C82A4148E3003AD2D9 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		E86230CD2A4148E3003AD2D9 /* AppAuthTV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86230C82A4148E3003AD2D9 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthTV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8420A662A3315EA00A02DDC /* Project object */;
 }
