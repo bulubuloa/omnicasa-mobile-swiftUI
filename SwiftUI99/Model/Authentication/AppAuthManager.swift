@@ -11,6 +11,7 @@ import UIKit
 import AppAuth
 
 class AppAuthManager: IAppAuthManager {
+    
     private var currentOAuthSession: OIDExternalUserAgentSession?
     
     private var loginContinuation: CheckedContinuation<Bool, Error>?

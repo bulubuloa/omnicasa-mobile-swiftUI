@@ -8,5 +8,21 @@
 import Foundation
 
 class MainViewModel: BaseViewModel {
+    let authenticationService: IAuthenticationService = AuthenticationService()
     
+    @Published var tokenExpired: String = ""
+    
+    func checkTokenAlive() {
+        let result = authenticationService.oauthTokenExpired() {
+            res in
+            DispatchQueue.main.async {
+                switch res {
+                    case .success(let expired):
+                        self.tokenExpired = "Token expired, need to re-login = \(expired)"
+                    case .failure(let error):
+                        self.tokenExpired = "Token still alive, continue to use \(error.localizedDescription)"
+                }
+            }
+        }
+    }
 }

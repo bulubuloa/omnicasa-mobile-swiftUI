@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct MainView: View {
+    @ObservedObject var viewModel: MainViewModel
+    
+    init() {
+        self.viewModel = MainViewModel()
+    }
+    
     var body: some View {
-        Text("MainView")
+        VStack {
+            Text("MainView")
+            ProgressView()
+            Text(viewModel.tokenExpired)
+        }
+        .task {
+            viewModel.checkTokenAlive()
+        }
     }
 }
 

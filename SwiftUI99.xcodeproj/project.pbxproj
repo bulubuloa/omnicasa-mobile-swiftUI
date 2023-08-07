@@ -29,6 +29,12 @@
 		E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DB2A41AEE6003AD2D9 /* AppAuthManager.swift */; };
 		E86230DE2A41AF04003AD2D9 /* IAppAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DD2A41AF04003AD2D9 /* IAppAuthManager.swift */; };
 		E86230E02A41AFA5003AD2D9 /* OAuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86230DF2A41AFA5003AD2D9 /* OAuthConfig.swift */; };
+		E87DD4F62A793E06007A2AB2 /* WebAPIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD4F52A793E06007A2AB2 /* WebAPIConnector.swift */; };
+		E87DD4F82A7941D3007A2AB2 /* WebAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD4F72A7941D3007A2AB2 /* WebAPIResponse.swift */; };
+		E87DD4FA2A79429F007A2AB2 /* WebAPIResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD4F92A79429F007A2AB2 /* WebAPIResponseBuilder.swift */; };
+		E87DD4FD2A794533007A2AB2 /* IAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD4FC2A794533007A2AB2 /* IAuthenticationService.swift */; };
+		E87DD4FF2A794561007A2AB2 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD4FE2A794561007A2AB2 /* AuthenticationService.swift */; };
+		E87DD5012A79472E007A2AB2 /* TokenAlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87DD5002A79472E007A2AB2 /* TokenAlive.swift */; };
 		E8D51D362A376CA50048A530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D51D352A376CA50048A530 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +79,12 @@
 		E86230DB2A41AEE6003AD2D9 /* AppAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthManager.swift; sourceTree = "<group>"; };
 		E86230DD2A41AF04003AD2D9 /* IAppAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAppAuthManager.swift; sourceTree = "<group>"; };
 		E86230DF2A41AFA5003AD2D9 /* OAuthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthConfig.swift; sourceTree = "<group>"; };
+		E87DD4F52A793E06007A2AB2 /* WebAPIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIConnector.swift; sourceTree = "<group>"; };
+		E87DD4F72A7941D3007A2AB2 /* WebAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIResponse.swift; sourceTree = "<group>"; };
+		E87DD4F92A79429F007A2AB2 /* WebAPIResponseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIResponseBuilder.swift; sourceTree = "<group>"; };
+		E87DD4FC2A794533007A2AB2 /* IAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAuthenticationService.swift; sourceTree = "<group>"; };
+		E87DD4FE2A794561007A2AB2 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		E87DD5002A79472E007A2AB2 /* TokenAlive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAlive.swift; sourceTree = "<group>"; };
 		E8D51D352A376CA50048A530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,9 +218,31 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		E87DD4F42A793DD1007A2AB2 /* WebAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD4FB2A794519007A2AB2 /* AuthService */,
+				E87DD4F52A793E06007A2AB2 /* WebAPIConnector.swift */,
+				E87DD4F72A7941D3007A2AB2 /* WebAPIResponse.swift */,
+				E87DD4F92A79429F007A2AB2 /* WebAPIResponseBuilder.swift */,
+			);
+			path = WebAPI;
+			sourceTree = "<group>";
+		};
+		E87DD4FB2A794519007A2AB2 /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD4FC2A794533007A2AB2 /* IAuthenticationService.swift */,
+				E87DD4FE2A794561007A2AB2 /* AuthenticationService.swift */,
+				E87DD5002A79472E007A2AB2 /* TokenAlive.swift */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
 		E8D51D322A3769920048A530 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E87DD4F42A793DD1007A2AB2 /* WebAPI */,
 				E810F8B82A432F1300905513 /* SettingStore */,
 				E86230DA2A41AECB003AD2D9 /* Authentication */,
 			);
@@ -363,8 +397,12 @@
 				E810F8C02A43327400905513 /* SettingDataStore.swift in Sources */,
 				E8420A9D2A331E0600A02DDC /* LoginView.swift in Sources */,
 				E86230D92A41AAA9003AD2D9 /* LoginViewModel.swift in Sources */,
+				E87DD4F62A793E06007A2AB2 /* WebAPIConnector.swift in Sources */,
 				E810F8C82A433A6E00905513 /* WelcomeViewModel.swift in Sources */,
+				E87DD5012A79472E007A2AB2 /* TokenAlive.swift in Sources */,
+				E87DD4F82A7941D3007A2AB2 /* WebAPIResponse.swift in Sources */,
 				E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */,
+				E87DD4FD2A794533007A2AB2 /* IAuthenticationService.swift in Sources */,
 				E86230E02A41AFA5003AD2D9 /* OAuthConfig.swift in Sources */,
 				E8D51D362A376CA50048A530 /* AppDelegate.swift in Sources */,
 				E8420A722A3315EA00A02DDC /* SwiftUI99App.swift in Sources */,
@@ -374,7 +412,9 @@
 				E810F8BA2A432F2500905513 /* SettingKeys.swift in Sources */,
 				E86230DE2A41AF04003AD2D9 /* IAppAuthManager.swift in Sources */,
 				E810F8BC2A43305F00905513 /* ISettingDataStore.swift in Sources */,
+				E87DD4FA2A79429F007A2AB2 /* WebAPIResponseBuilder.swift in Sources */,
 				E810F8C42A43359A00905513 /* MainViewModel.swift in Sources */,
+				E87DD4FF2A794561007A2AB2 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
