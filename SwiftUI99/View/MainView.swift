@@ -15,10 +15,27 @@ struct MainView: View {
     }
     
     var body: some View {
-        VStack {
-            Text("MainView")
-            ProgressView()
-            Text(viewModel.tokenExpired)
+        TabView {
+            AgendaScheduleView()
+                .tabItem() {
+                    Label("Agenda", systemImage: "list.bullet.clipboard.fill")
+                }
+            PropertyPageView()
+                .tabItem() {
+                    Label("Property", systemImage: "house.fill")
+                }
+            PersonPageView()
+                .tabItem() {
+                    Label("Contact", systemImage: "person.2.circle")
+                }
+            TaskPageView()
+                .tabItem() {
+                    Label("Task", systemImage: "checklist")
+                }
+            PerferencePageView()
+                .tabItem() {
+                    Label("...", systemImage: "ellipsis")
+                }
         }
         .task {
             viewModel.checkTokenAlive()

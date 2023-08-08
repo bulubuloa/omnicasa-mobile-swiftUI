@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E809D6532A81EDE6007CA62A /* AgendaScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D6522A81EDE5007CA62A /* AgendaScheduleView.swift */; };
+		E809D6562A81EE02007CA62A /* PropertyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D6552A81EE02007CA62A /* PropertyPageView.swift */; };
+		E809D6592A81EE16007CA62A /* PersonPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D6582A81EE16007CA62A /* PersonPageView.swift */; };
+		E809D65C2A81EE35007CA62A /* TaskPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D65B2A81EE35007CA62A /* TaskPageView.swift */; };
+		E809D65F2A81EE52007CA62A /* PerferencePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D65E2A81EE52007CA62A /* PerferencePageView.swift */; };
 		E810F8BA2A432F2500905513 /* SettingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8B92A432F2500905513 /* SettingKeys.swift */; };
 		E810F8BC2A43305F00905513 /* ISettingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8BB2A43305F00905513 /* ISettingDataStore.swift */; };
 		E810F8C02A43327400905513 /* SettingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810F8BF2A43327400905513 /* SettingDataStore.swift */; };
@@ -56,6 +61,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E809D6522A81EDE5007CA62A /* AgendaScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaScheduleView.swift; sourceTree = "<group>"; };
+		E809D6552A81EE02007CA62A /* PropertyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPageView.swift; sourceTree = "<group>"; };
+		E809D6582A81EE16007CA62A /* PersonPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPageView.swift; sourceTree = "<group>"; };
+		E809D65B2A81EE35007CA62A /* TaskPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPageView.swift; sourceTree = "<group>"; };
+		E809D65E2A81EE52007CA62A /* PerferencePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerferencePageView.swift; sourceTree = "<group>"; };
 		E810F8B92A432F2500905513 /* SettingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingKeys.swift; sourceTree = "<group>"; };
 		E810F8BB2A43305F00905513 /* ISettingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISettingDataStore.swift; sourceTree = "<group>"; };
 		E810F8BF2A43327400905513 /* SettingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDataStore.swift; sourceTree = "<group>"; };
@@ -116,6 +126,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E809D6502A81E29D007CA62A /* NavigationService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationService;
+			sourceTree = "<group>";
+		};
+		E809D6512A81EDCA007CA62A /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				E809D6522A81EDE5007CA62A /* AgendaScheduleView.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+		E809D6542A81EDEC007CA62A /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				E809D6552A81EE02007CA62A /* PropertyPageView.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		E809D6572A81EE08007CA62A /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				E809D6582A81EE16007CA62A /* PersonPageView.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		E809D65A2A81EE21007CA62A /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				E809D65B2A81EE35007CA62A /* TaskPageView.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		E809D65D2A81EE41007CA62A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E809D65E2A81EE52007CA62A /* PerferencePageView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		E810F8B82A432F1300905513 /* SettingStore */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +247,11 @@
 		E8420A9B2A331D9500A02DDC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E809D65D2A81EE41007CA62A /* Others */,
+				E809D65A2A81EE21007CA62A /* Task */,
+				E809D6572A81EE08007CA62A /* Person */,
+				E809D6542A81EDEC007CA62A /* Property */,
+				E809D6512A81EDCA007CA62A /* Agenda */,
 				E8420A9C2A331E0600A02DDC /* LoginView.swift */,
 				E810F8C12A4334B000905513 /* MainView.swift */,
 				E810F8C92A433B6700905513 /* WelcomeView.swift */,
@@ -242,6 +304,7 @@
 		E8D51D322A3769920048A530 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E809D6502A81E29D007CA62A /* NavigationService */,
 				E87DD4F42A793DD1007A2AB2 /* WebAPI */,
 				E810F8B82A432F1300905513 /* SettingStore */,
 				E86230DA2A41AECB003AD2D9 /* Authentication */,
@@ -396,10 +459,15 @@
 			files = (
 				E810F8C02A43327400905513 /* SettingDataStore.swift in Sources */,
 				E8420A9D2A331E0600A02DDC /* LoginView.swift in Sources */,
+				E809D65F2A81EE52007CA62A /* PerferencePageView.swift in Sources */,
+				E809D6562A81EE02007CA62A /* PropertyPageView.swift in Sources */,
 				E86230D92A41AAA9003AD2D9 /* LoginViewModel.swift in Sources */,
+				E809D6532A81EDE6007CA62A /* AgendaScheduleView.swift in Sources */,
 				E87DD4F62A793E06007A2AB2 /* WebAPIConnector.swift in Sources */,
+				E809D6592A81EE16007CA62A /* PersonPageView.swift in Sources */,
 				E810F8C82A433A6E00905513 /* WelcomeViewModel.swift in Sources */,
 				E87DD5012A79472E007A2AB2 /* TokenAlive.swift in Sources */,
+				E809D65C2A81EE35007CA62A /* TaskPageView.swift in Sources */,
 				E87DD4F82A7941D3007A2AB2 /* WebAPIResponse.swift in Sources */,
 				E86230DC2A41AEE6003AD2D9 /* AppAuthManager.swift in Sources */,
 				E87DD4FD2A794533007A2AB2 /* IAuthenticationService.swift in Sources */,
